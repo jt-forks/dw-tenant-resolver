@@ -1,4 +1,6 @@
 # dw-tenant-resolver
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FjustinTsugranes%2Fdw-tenant-resolver.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2FjustinTsugranes%2Fdw-tenant-resolver?ref=badge_shield)
+
 Dropwizard bundle which helps to achieve multi-tenancy in dropwizard application
 
 <b>Configuration:</b>
@@ -84,3 +86,7 @@ and if you explicitly want to use the specific tenant's entity manager -
 ```java
 TenantResolver.getEntityManager(tenantName)
 ```
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2FjustinTsugranes%2Fdw-tenant-resolver.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2FjustinTsugranes%2Fdw-tenant-resolver?ref=badge_large)
